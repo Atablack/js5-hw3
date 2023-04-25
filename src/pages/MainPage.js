@@ -13,7 +13,7 @@ function Counter() {
         dispatch({ type: 'DECREMENT' });
     }
 
-    return <>
+    return {
         <div>
             <button onClick={handleDecrement}>-</button>
             <h1>{count}</h1>
