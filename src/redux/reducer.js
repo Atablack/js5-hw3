@@ -1,17 +1,3 @@
-// const initialState = {
-//     k: 0
-// }
-
-// export default function reducer (state = initialState, action) {
-//     if (action.type === 'INCREMENT') {
-//         return state.k + 1
-//     }
-//     else if (action.type === 'DECREMENT') {
-//         return state.k - 1
-//     }
-//     return state
-// }
-
 const initialState = {
     count: 0,
 }
