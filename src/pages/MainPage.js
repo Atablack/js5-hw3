@@ -1,34 +1,3 @@
-// import { useDispatch, useSelector } from "react-redux"
-
-// export default function MainPage() {
-
-//     const dispatch = useDispatch()
-//     const {k} = useSelector((state) => state)
-
-
-//     const handleIncrement = () => {
-//         dispatch({
-//             type: 'INCREMENT'
-//         })
-//     }
-
-//     const handleDecrement = () => {
-//         dispatch({
-//             type: 'DECREMENT'
-//         })
-//     }
-
-//     return (
-//         <div>
-//             <button onClick={handleIncrement}>+</button>
-//             <h1>{k}</h1>
-//             <button onClick={handleDecrement}>-</button>
-//         </div>
-//     )
-// }
-
-
-// import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 
