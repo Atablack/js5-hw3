@@ -19,7 +19,6 @@ function Counter() {
             <h1>{count}</h1>
             <button onClick={handleIncrement}>+</button>
         </div>
-    </>
 }
 
 export default Counter;
